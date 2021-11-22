@@ -8,11 +8,10 @@ using namespace std;
 
 int main()
 {
-  // Initialize the number variable to 0
   int number = 0;
   // Prompt the user for an integer/number
   cout << "Enter an integer(Don't include commas): ";
-  // Take input and insert it to the number variable
+  
   if (cin >> number)
   {
     // If number is even use the modulo 2 to 
